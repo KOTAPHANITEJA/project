@@ -1,0 +1,15 @@
+<h1>Hello,{{name}}</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking Website</title>
+</head>
+<body>
+    <a href="{% url 'hotel_list' %}"><button type="button" class="btn btn-success">Book Stay</button></a><br>
+    <a href="{% url 'movie_list'%}"><button type="button" class="btn btn-success">Book Movie Tickets</button></a><br>
+    <a href="{% url 'restaurant_list'%}"><button type="button" class="btn btn-success">Reserve Tables</button></a><br>
+    
+</body>
+</html>
